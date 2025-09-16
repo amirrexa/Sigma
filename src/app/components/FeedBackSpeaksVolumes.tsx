@@ -43,7 +43,7 @@ function Card({ t }: { t: Testimonial }) {
                     <Image src={"/assets/icons/Tick.png"} width={20} height={20} alt="Tick" />
                 </h4>
             </div>
-
+            {/*  */}
             <p className="mt-4 text-sm text-left leading-6 text-zinc-400 max-sm:text-[10px]">&ldquo;{t.quote}&rdquo;</p>
         </div>
     );
