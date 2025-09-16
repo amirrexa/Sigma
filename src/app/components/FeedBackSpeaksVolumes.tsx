@@ -33,19 +33,6 @@ const COL3 = repeat([...BASE.slice(4), ...BASE.slice(0, 4)], 6);
 
 const MOBILE = repeat(BASE, 12);
 
-// ─── small presentational bits ─────────────────────────────────────────────────
-function Badge() {
-    return (
-        <svg width="16" height="16" viewBox="0 0 24 24" className="inline-block align-[-2px]">
-            <path
-                d="M12 2l2.39 4.84 5.33.78-3.86 3.76.91 5.3L12 14.9l-4.77 2.78.91-5.3L4.28 7.62l5.33-.78L12 2z"
-                fill="currentColor"
-            />
-        </svg>
-    );
-}
-
-
 function Card({ t }: { t: Testimonial }) {
     return (
         <div className="relative rounded-2xl border border-white/5 bg-zinc-900/40 backdrop-blur-sm px-5 py-6 max-sm:p-4 shadow-[0_0_0_1px_rgba(255,255,255,0.02),0_20px_50px_-20px_rgba(0,0,0,0.5)]">

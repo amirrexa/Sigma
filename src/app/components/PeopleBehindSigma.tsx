@@ -107,7 +107,7 @@ export const PeopleBehindSigma = () => {
                 <h2 className="mask-bottom-fade font-medium text-5xl max-sm:text-2xl max-sm:text-center text-white max-sm:w-[85%]">
                     People Behind Sigma
                 </h2>
-                <p className="text-zinc-400 mt-2 max-sm:mt-4 max-sm:text-[10px] w-1/3 text-center max-sm:w-[85%]">We're a collective of Web3-native professionals, growth hackers,
+                <p className="text-zinc-400 mt-2 max-sm:mt-4 max-sm:text-[10px] w-1/3 text-center max-sm:w-[85%]">We&apos;re a collective of Web3-native professionals, growth hackers,
                     and regional connectors who live and breathe crypto.</p>
 
                 <div className="grid gap-x-6 gap-y-10 sm:grid-cols-5 max-sm:hidden">

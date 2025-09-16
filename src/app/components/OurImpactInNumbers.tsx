@@ -4,6 +4,13 @@
 import Image from "next/image";
 import { useEffect } from "react";
 
+function toNotation(s?: string): Intl.NumberFormatOptions['notation'] {
+    if (s === 'standard' || s === 'scientific' || s === 'engineering' || s === 'compact') {
+        return s;
+    }
+    return 'standard';
+}
+
 export default function OurImpactInNumbers() {
     useEffect(() => {
         const easeOut = (t: number) => 1 - Math.pow(1 - t, 3);
@@ -14,7 +21,7 @@ export default function OurImpactInNumbers() {
             const dur = Number(el.dataset.duration || "2000");
             const prefix = el.dataset.prefix ?? "";
             const suffix = el.dataset.suffix ?? "";
-            const format = new Intl.NumberFormat("en", { notation: el.dataset.notation as any || "standard", maximumFractionDigits: 1 });
+            const format = new Intl.NumberFormat("en", { notation: toNotation(el.dataset.notation), maximumFractionDigits: 1 });
 
             let start: number | null = null;
             const step = (ts: number) => {

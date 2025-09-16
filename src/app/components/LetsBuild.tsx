@@ -11,10 +11,10 @@ export const LetsBuild = () => {
 
                 <div className="flex flex-col gap-6 max-sm:gap-4 items-center absolute left-1/2 top-6/7 max-sm:top-32 -translate-x-1/2 -translate-y-1/2 w-full">
                     <h2 className="mask-bottom-fade font-medium text-5xl text-white max-sm:text-2xl">
-                        Let's Build<br />Something Amazing Together
+                        Let&apos;s Build<br />Something Amazing Together
                     </h2>
                     <p className="text-zinc-400 w-full md:w-1/2 max-sm:text-[10px] max-sm:w-full">
-                        We're a collective of Web3-native professionals, growth hackers,
+                        We&apos;re a collective of Web3-native professionals, growth hackers,
                         and regional connectors who live and breathe crypto.
                     </p>
                 </div>
