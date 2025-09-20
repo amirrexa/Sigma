@@ -3,7 +3,7 @@ import Image from "next/image"
 export const BeTheFirst = () => {
     return (
         <section className="mt-40 flex flex-col items-center justify-center relative border-t border-t-[#FFFFFF26] border-b border-b-[#FFFFFF26] h-[473px] max-sm:h-[299px]">
-            <Image src={"/assets/GridPattern3.png"} alt="Grid" width={1100} height={473} className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+            <Image src={"/assets/BlueGlow.png"} alt="Grid" width={1100} height={473} className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-sm:top-0 max-sm:translate-y-0 w-full h-full" />
 
             <h2 className="mask-bottom-fade font-medium text-5xl text-white text-center max-sm:text-2xl">
                 Be the first to know<br />

@@ -137,7 +137,10 @@ export const PeopleBehindSigma = () => {
                         </div>
                     ))
                     }
-                    <Image src={"/assets/TeamMembers.png"} width={204} height={315} alt="TeamMembers" className="pointer-events-none" />
+                    <div className="relative flex flex-col  justify-center">
+                        <span className="bg-silver-text text-5xl text-center text-white font-medium z-10">+50</span><span className="bg-silver-text text-sm text-center font-medium z-10">Team Members</span>
+                        <Image src={"/assets/50TeamMembers.png"} width={204} height={315} alt="TeamMembers" className="absolute pointer-events-none" />
+                    </div>
                 </div>
                 {/* Mobile carousel */}
                 <div className="sm:hidden w-full relative mt-6">
@@ -199,8 +202,9 @@ export const PeopleBehindSigma = () => {
                         ))}
                         {/* Extra slide for TeamMembers image to mirror desktop grid's trailing image */}
                         <SwiperSlide>
-                            <div className="mx-auto w-[204px] h-[315px]">
-                                <Image src={"/assets/TeamMembers.png"} width={204} height={315} alt="TeamMembers" className="pointer-events-none" />
+                            <div className="mx-auto w-[204px] h-[315px] relative flex flex-col justify-center">
+                                <span className="bg-silver-text text-5xl text-center text-white font-medium z-10">+50</span><span className="bg-silver-text text-sm text-center font-medium z-10">Team Members</span>
+                                <Image src={"/assets/50TeamMembers.png"} width={204} height={315} alt="TeamMembers" className="absolute pointer-events-none" />
                             </div>
                         </SwiperSlide>
                     </Swiper>

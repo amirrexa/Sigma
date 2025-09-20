@@ -61,9 +61,7 @@ export default function OurImpactInNumbers() {
                 {/* +30 */}
                 <div className="flex flex-col gap-3">
                     <div className="flex items-center gap-4 text-5xl font-semibold text-white max-sm:text-2xl">
-                        <div className="flex items-center justify-center bg-gradient-icon w-10 h-10 border border-[#FFFFFF66] rounded-lg">
-                            <Image src={'/assets/icons/Chart.png'} alt="Chart" width={32} height={32} className="max-sm:w-[22px] max-sm:h-[22px]" />
-                        </div>
+                        <Image src={'/assets/icons/Chart.png'} alt="Chart" width={56} height={56} className="max-sm:w-[40px] max-sm:h-[40px]" />
                         <span data-count-to="30" data-prefix="+" aria-label="+30">+0</span>
                     </div>
                     <p className="text-zinc-400 max-sm:text-sm">campaigns executed across 10+ regions</p>
@@ -72,9 +70,8 @@ export default function OurImpactInNumbers() {
                 {/* +500 */}
                 <div className="flex flex-col gap-3">
                     <div className="flex items-center gap-4 text-5xl font-semibold text-white max-sm:text-2xl">
-                        <div className="flex items-center justify-center bg-gradient-icon w-10 h-10 border border-[#FFFFFF66] rounded-lg">
-                            <Image src={'/assets/icons/Star.png'} alt="Cursor" width={32} height={32} className="max-sm:w-[22px] max-sm:h-[22px]" />
-                        </div>
+
+                        <Image src={'/assets/icons/Star.png'} alt="Cursor" width={56} height={56} className="max-sm:w-[40px] max-sm:h-[40px]" />
                         <span data-count-to="500" data-prefix="+" aria-label="+500">+0</span>
                     </div>
                     <p className="text-zinc-400 max-sm:text-sm">KOL connections activated</p>
@@ -83,9 +80,7 @@ export default function OurImpactInNumbers() {
                 {/* +5B */}
                 <div className="flex flex-col gap-3">
                     <div className="flex items-center gap-4 text-5xl font-semibold text-white max-sm:text-2xl">
-                        <div className="flex items-center justify-center bg-gradient-icon w-10 h-10 border border-[#FFFFFF66] rounded-lg">
-                            <Image src={'/assets/icons/Gauge.png'} alt="Gauge" width={32} height={32} className="max-sm:w-[22px] max-sm:h-[22px]" />
-                        </div>
+                        <Image src={'/assets/icons/Gauge.png'} alt="Gauge" width={56} height={56} className="max-sm:w-[40px] max-sm:h-[40px]" />
                         <span data-count-to="5000000000" data-prefix="+" data-notation="compact" aria-label="+5B">+0</span>
                     </div>
                     <p className="text-zinc-400 max-sm:text-sm">Dollars Monthly Trading Volume</p>
@@ -94,9 +89,7 @@ export default function OurImpactInNumbers() {
                 {/* +2M */}
                 <div className="flex flex-col gap-3">
                     <div className="flex items-center gap-4 text-5xl font-semibold text-white max-sm:text-2xl">
-                        <div className="flex items-center justify-center bg-gradient-icon w-10 h-10 border border-[#FFFFFF66] rounded-lg">
-                            <Image src={'/assets/icons/Cursor.png'} alt="Cursor" width={32} height={32} className="max-sm:w-[22px] max-sm:h-[22px]" />
-                        </div>
+                        <Image src={'/assets/icons/Cursor.png'} alt="Cursor" width={56} height={56} className="max-sm:w-[40px] max-sm:h-[40px]" />
                         <span data-count-to="2000000" data-prefix="+" data-notation="compact" aria-label="+2M">+0</span>
                     </div>
                     <p className="text-zinc-400 max-sm:text-sm">organic impressions generated monthly</p>
@@ -105,9 +98,7 @@ export default function OurImpactInNumbers() {
                 {/* +85M */}
                 <div className="flex flex-col gap-3">
                     <div className="flex items-center gap-4 text-5xl font-semibold text-white max-sm:text-2xl">
-                        <div className="flex items-center justify-center bg-gradient-icon w-10 h-10 border border-[#FFFFFF66] rounded-lg">
-                            <Image src={'/assets/icons/Target.png'} alt="Target" width={32} height={32} className="max-sm:w-[22px] max-sm:h-[22px]" />
-                        </div>
+                        <Image src={'/assets/icons/Target.png'} alt="Target" width={56} height={56} className="max-sm:w-[40px] max-sm:h-[40px]" />
                         <span data-count-to="85000000" data-prefix="+" data-notation="compact" aria-label="+85M">+0</span>
                     </div>
                     <p className="text-zinc-400 max-sm:text-sm">in cumulative client ROI</p>
@@ -116,9 +107,7 @@ export default function OurImpactInNumbers() {
                 {/* +20 */}
                 <div className="flex flex-col gap-3">
                     <div className="flex items-center gap-4 text-5xl font-semibold text-white max-sm:text-2xl">
-                        <div className="flex items-center justify-center bg-gradient-icon w-10 h-10 border border-[#FFFFFF66] rounded-lg">
-                            <Image src={'/assets/icons/Wand.png'} alt="Wand" width={32} height={32} className="max-sm:w-[22px] max-sm:h-[22px]" />
-                        </div>
+                        <Image src={'/assets/icons/Wand.png'} alt="Wand" width={56} height={56} className="max-sm:w-[40px] max-sm:h-[40px]" />
                         <span data-count-to="20" data-prefix="+" aria-label="+20">+0</span>
                     </div>
                     <p className="text-zinc-400 max-sm:text-sm">Business Development Managers</p>

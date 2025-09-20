@@ -27,7 +27,7 @@ export default function TrustedPartnersSwiper() {
                 <Swiper
                     modules={[Autoplay]}
                     slidesPerView="auto"
-                    spaceBetween={32}
+                    spaceBetween={80}
                     allowTouchMove={false}
                     speed={8000}
                     autoplay={{

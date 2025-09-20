@@ -62,7 +62,7 @@ function Column({
     delay?: number;
 }) {
     return (
-        <div className="relative h-[560px] md:h-[640px] overflow-hidden rounded-3xl">
+        <div className="relative h-[460px] overflow-hidden rounded-3xl">
             <Swiper
                 modules={[Autoplay]}
                 direction="vertical"

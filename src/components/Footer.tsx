@@ -28,16 +28,15 @@ export const Footer = () => {
                     <Link href="#" aria-label="Instagram">
                         <Image
                             alt="Instagram"
-                            src="/assets/icons/InstagramDark.png"
+                            src="/assets/icons/Instagram.svg"
                             width={24}
                             height={24}
-                            className="bg-zinc-400"
                         />
                     </Link>
                     <Link href="#" aria-label="X">
                         <Image
                             alt="X"
-                            src="/assets/icons/XDark.png"
+                            src="/assets/icons/X.svg"
                             width={24}
                             height={24}
                         />
@@ -45,7 +44,7 @@ export const Footer = () => {
                     <Link href="#" aria-label="YouTube">
                         <Image
                             alt="YouTube"
-                            src="/assets/icons/YouTubeDark.png"
+                            src="/assets/icons/YouTube.svg"
                             width={24}
                             height={24}
                         />
@@ -60,7 +59,7 @@ export const Footer = () => {
                         <ul className="space-y-3 text-zinc-400">
                             {links.map((link) => (
                                 <li key={link}>
-                                    <Link href="#" className="hover:text-white text-zinc-400 transition-colors max-sm:text-[13px]">
+                                    <Link href="#" className="hover:text-white text-zinc-400 transition-colors text-[13px]">
                                         {link}
                                     </Link>
                                 </li>
@@ -73,7 +72,7 @@ export const Footer = () => {
                 <Link href="#" aria-label="Instagram">
                     <Image
                         alt="Instagram"
-                        src="/assets/icons/InstagramDark.png"
+                        src="/assets/icons/Instagram.svg"
                         width={24}
                         height={24}
                         className="bg-zinc-400"
@@ -82,7 +81,7 @@ export const Footer = () => {
                 <Link href="#" aria-label="X">
                     <Image
                         alt="X"
-                        src="/assets/icons/XDark.png"
+                        src="/assets/icons/X.svg"
                         width={24}
                         height={24}
                     />
@@ -90,7 +89,7 @@ export const Footer = () => {
                 <Link href="#" aria-label="YouTube">
                     <Image
                         alt="YouTube"
-                        src="/assets/icons/YouTubeDark.png"
+                        src="/assets/icons/YouTube.svg"
                         width={24}
                         height={24}
                     />
