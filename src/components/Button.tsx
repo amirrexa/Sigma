@@ -83,7 +83,7 @@ export const Button = forwardRef<HTMLButtonElement | HTMLAnchorElement, ButtonPr
 
         return (
             <span className={`relative ${className ?? ""}`}>
-                <Image
+                {/* <Image
                     width={1174}
                     height={1010}
                     src="/assets/ButtonTopGlow.png"
@@ -91,7 +91,7 @@ export const Button = forwardRef<HTMLButtonElement | HTMLAnchorElement, ButtonPr
                     aria-hidden
                     draggable={false}
                     className="pointer-events-none select-none absolute left-1/2 top-1/12 -translate-x-1/2 -translate-y-1/2 max-w-none w-[450%] h-auto z-0"
-                />
+                /> */}
                 <Comp
                     ref={ref as Ref<HTMLAnchorElement & HTMLButtonElement>}
                     className={`relative z-10 inline-flex overflow-visible items-center justify-center backdrop-blur-sm px-6 h-12 text-base font-medium rounded-[5px] transition active:translate-y-px focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--ring-color)] cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed max-sm:h-8 max-sm:text-xs text-white bg-[--brand-600] bg-gradient-primary hover:brightness-110 ${loading ? "pointer-events-none" : ""}`}

@@ -75,7 +75,6 @@ export const Footer = () => {
                         src="/assets/icons/Instagram.svg"
                         width={24}
                         height={24}
-                        className="bg-zinc-400"
                     />
                 </Link>
                 <Link href="#" aria-label="X">

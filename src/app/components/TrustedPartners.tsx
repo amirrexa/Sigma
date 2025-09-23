@@ -28,6 +28,14 @@ export default function TrustedPartnersSwiper() {
                     modules={[Autoplay]}
                     slidesPerView="auto"
                     spaceBetween={80}
+                    breakpoints={{
+                        640: {
+                            spaceBetween: 80,
+                        },
+                        0: {
+                            spaceBetween: 40,
+                        },
+                    }}
                     allowTouchMove={false}
                     speed={8000}
                     autoplay={{
